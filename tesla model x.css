@@ -54,6 +54,7 @@ html {
  width: 660px;
  height: 400px;
  border: 1px solid blue; 
+ border-radius: 4px;
  
  }
 
@@ -62,13 +63,14 @@ html {
  width: 660px;
  height: 400px;
  border: 1px solid blue; 
+ border-radius: 4px;
 }
 .box-3 {
  background-color: white;
  width: 660px;
  height: 400px;
  border: 1px solid blue;
- 
+ border-radius: 4px;
 }
   h2 {
 	  text-align: center;
