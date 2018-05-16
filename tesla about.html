@@ -7,38 +7,34 @@
    
    <link href="tesla about.css" type="text/css" rel="stylesheet">
 	<script src="tesla.js"></script>
-</head>
-<body>
-
-<ul>
+	<ul>
   <li><a class="active" href="#Commeny">Comment</a></li>
      <li><a href="tesla model x.html">Model X</a></li>
      <li><a href="tesla info.html">Information</a></li>
      <li><a href="tesla.html">Home</a></li>
-</ul>	
+</ul>
 	
-<div class="container">
-  <form action="action_page.php">
+	<form>
+<textarea id="words" rows="10" cols="20" placeholder="Give Us A Comment"> </textarea>
+<input type="button" onclick="getwords()" value="Enter" /> <br>
+<p id="para"></p>
+</form>
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your First name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+<script type="text/javascript">
+function getwords() {
+  text = words.value;
+  document.getElementById("para").innerHTML += '<p>'+text
+  document.getElementById("words").value = "Submited"
+}
+</script>
 
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
-    </select>
+	
+</head>
 
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Add a comment..." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
 
-  </form>
-</div>
+
 
 
 
