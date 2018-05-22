@@ -73,3 +73,8 @@ input[type=submit] {
 html {
 	background-color: red;
 }
+
+#para {
+	background-color: black;
+	color: red;
+}

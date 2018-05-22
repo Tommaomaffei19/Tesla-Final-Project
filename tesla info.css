@@ -50,3 +50,22 @@ li a:hover:not(.active) {
 html {
 	background-color: red;
 }
+
+.Tesla{
+ background-color: white;
+ width: 660px;
+ height: 600px;
+ border: 1px solid blue;
+ border-radius: 4px;
+ 
+}
+
+.Cars{
+ height: 240px;
+ width:  659.7px;
+  
+}
+  h2 {
+	  text-align: center;
+	 
+  }
